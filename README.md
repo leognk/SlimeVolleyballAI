@@ -1,6 +1,6 @@
 # Slime Volleyball AI
 
-In this project, I trained an agent to play Slime Volleyball using the [NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies) algorithm (NeuralEvolution of Augmenting Topologies).
+In this project, I trained an agent to play Slime Volleyball using the [NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies) algorithm (NeuroEvolution of Augmenting Topologies).
 
 <p align="center">
 Left: Baseline - Right: NEAT agent #1 </br>
@@ -9,7 +9,6 @@ Left: Baseline - Right: NEAT agent #1 </br>
 
 <p align="center">
 Neural net of NEAT agent #1 </br>
-Avg score: 0.73 </br>
 <img width=600 src="images/agent1_graph.png">
 </p>
 
@@ -20,7 +19,6 @@ Left: Baseline - Right: NEAT agent #2 </br>
 
 <p align="center">
 Neural net of NEAT agent #2 </br>
-Avg score: 0.77 </br>
 <img width=600 src="images/agent2_graph.png">
 </p>
 
