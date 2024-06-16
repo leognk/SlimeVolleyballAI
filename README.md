@@ -36,8 +36,8 @@ The best agent I could evolve achieves an average score of 0.77 ± 0.92 against 
 
 ## Code
 
-Jax is required to execute the code.
+[JAX](https://jax.readthedocs.io/en/latest/installation.html) with GPU support is required to execute the code.
 
 The Slime Volleyball environment has been adapted from [EvoJAX](https://github.com/google/evojax), and the NEAT implementation has been modified from [neat-python](https://github.com/CodeReclaimers/neat-python).
 
-The only modification made to neat-python is the definition of the neural network's feedforward function. This change ensures JIT compilation compatibility with Jax and allows processing a batch of neural networks in parallel, significantly accelerating inference with a GPU.
+The only modification made to neat-python is the definition of the neural network's feedforward function. This change ensures JIT compilation compatibility with JAX and allows processing a batch of neural networks in parallel, significantly accelerating inference with a GPU.
