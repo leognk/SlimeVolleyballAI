@@ -1,0 +1,6 @@
+__pycache__/
+.vscode/
+
+jax/
+log/
+test[0-9]*.py
